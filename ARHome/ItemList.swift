@@ -56,7 +56,7 @@ class ItemList {
     var itemsList = [Item]()
     
     init() {
-        self.itemsList = [Item(itemType: .scn, name: "chair", image: #imageLiteral(resourceName: "chair-icon")), Item(itemType: .dae, name: "cup", image: #imageLiteral(resourceName: "cup-icon")), Item(itemType: .dae, name: "flower", image: #imageLiteral(resourceName: "vase-icon")),Item(itemType: .dae, name: "lamp", image: #imageLiteral(resourceName: "lamp-icon")), Item(itemType: .dae, name: "table", image: #imageLiteral(resourceName: "table-icon"))]
+        self.itemsList = [Item(itemType: .scn, name: "chair", image: #imageLiteral(resourceName: "chair-icon")), Item(itemType: .dae, name: "cup", image: #imageLiteral(resourceName: "cup-icon")), Item(itemType: .dae, name: "flower", image: #imageLiteral(resourceName: "vase-icon")),Item(itemType: .dae, name: "lamp", image: #imageLiteral(resourceName: "lamp-icon")), Item(itemType: .scn, name: "table", image: #imageLiteral(resourceName: "table-icon"))]
     }
     
 }

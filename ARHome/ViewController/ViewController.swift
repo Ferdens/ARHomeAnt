@@ -57,7 +57,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
         
-//        sceneView.showsStatistics = true
         let scene = SCNScene()
         sceneView.scene = scene
         
